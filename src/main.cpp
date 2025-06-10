@@ -182,7 +182,7 @@ int main()
 	//for (int i = 0; i < 15; i++)
 	//	std::cout << "valor: " << misdatos[i] << std::endl;
 	const char* maps[3] = { "map1.txt", "map2.txt", "map3.txt" };
-	const char* musicTracks[3] = { "ILUETNI.XM", "TECNO1.XM", "LIRIUM.XM" };
+	const char* musicTracks[3] = { "TECNO1.XM", "LIRIUM.XM", "TECNO1.XM" };
 
 
 
@@ -243,10 +243,10 @@ int main()
 	messageSystem = new MessageSystem();
 
 	 //Agrega varios logros a la pila de mensajes
-	messageSystem->AgregarMensaje("Evade Enemigos");
-	messageSystem->AgregarMensaje("Explorador");
-	messageSystem->AgregarMensaje("Primeros Pasos");
-	messageSystem->AgregarMensaje("Nuevo Jugador");
+	messageSystem->AgregarMensaje("Olee!!!");
+	messageSystem->AgregarMensaje("Curioso");
+	messageSystem->AgregarMensaje("Aprendiste a caminar");
+	messageSystem->AgregarMensaje("Inicio");
 
 
 	//Prueba de calculo de hash md5 usando la biblioteca de zunawe
