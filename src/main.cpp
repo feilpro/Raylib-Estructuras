@@ -213,8 +213,8 @@ int main()
 
 
 
-	ObjectChest* objChest = new ObjectChest("objChest");
-	objChest->Start();
+	/*ObjectChest* objChest = new ObjectChest("objChest");
+	objChest->Start();*/
 
 
 
@@ -222,7 +222,7 @@ int main()
 	gameobjects.push_back(player);
 	gameobjects.push_back(enemy1);
 	gameobjects.push_back(enemy2);
-	gameobjects.push_back(objChest);
+	//gameobjects.push_back(objChest);
 
 
 	//todos los gameobjects deberemos guardar su uid en esta tabla
@@ -231,7 +231,7 @@ int main()
 	tablaUID[player->getUID()] = player->name;
 	tablaUID[enemy1->getUID()] = enemy1->name;
 	tablaUID[enemy2->getUID()] = enemy2->name;
-	tablaUID[objChest->getUID()] = objChest->name;
+	//tablaUID[objChest->getUID()] = objChest->name;
 
 	for (const auto& par : tablaUID) {
 		std::cout << "UID: " << par.first << " - Nombre: " << par.second << std::endl;
